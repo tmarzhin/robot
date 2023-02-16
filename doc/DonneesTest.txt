@@ -1,0 +1,4 @@
+Mairie; Hôtel de ville; adM
+Boucher; Boucherie;adB
+Parc Michelle; Parc;adP
+Forêt du Loup;Forêt;adF

@@ -1,0 +1,35 @@
+/* Pour afficher le diagramme UML:  
+   Window>Show view>Other>Plantuml
+   
+   La doc: http://plantuml.com/class-diagram
+*/
+
+@startuml
+
+class AnalyseBDD {
+  def getDico() :Set[String]
+  def searchInDict(s : String): (String, String)
+}
+class ToleranceErreur {
+  def corrige(cle:String, dict:Set[String]):String
+  
+}
+class AnalysePhraseD {
+ def analyse(quest:String):Set[(String,String)]
+}
+
+class GUI implements MainFrame {
+ def addBulle(resp:String, AI:Boolean):Unit
+}
+
+class MainApp extends SimpleSwingApplication {
+	response(s: String)
+}
+
+MainApp --> GUI
+MainApp --> AnalysePhraseD
+MainApp --* AnalyseBDD
+AnalysePhraseD --> ToleranceErreur
+AnalysePhraseD --* AnalyseBDD
+
+ @enduml

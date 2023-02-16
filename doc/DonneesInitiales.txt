@@ -1,0 +1,4 @@
+Mairie de Rennes;Hôtel de ville;Mairie;Hôtel;Place de la Mairie
+Théâtre La Paillette;La Paillette;2, Rue du Pré de Bris
+Théâtre National de Bretagne;TNB;Théâtre de Bretagne;1, Rue Saint-Hélier
+Gare SNCF;Gare;19, Place de la Gare
